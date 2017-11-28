@@ -3,7 +3,7 @@ class Course
   @@all_course = []
 
   def self.all
-    @all
+    @@all
   end
-  
+
 end
