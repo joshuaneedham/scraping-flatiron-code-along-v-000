@@ -1,9 +1,9 @@
 class Course
   attr_accessor :title, :schedule, :description
-  @@all_courses = []
+  @@all = []
 
   def self.all
-    @@all_courses
+    @@all
   end
 
 end
