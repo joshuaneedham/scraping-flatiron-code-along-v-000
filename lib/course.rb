@@ -8,7 +8,7 @@ class Course
     @description = description
     @@all
   end
-    
+
   def self.all
     @@all
   end
